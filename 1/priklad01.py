@@ -9,3 +9,5 @@ baliky = {
 cisloBaliku = input("Zadej číslo balíku: ")
 if baliky[cisloBaliku]:
     print("Balík byl předán kurýrovi")
+else:
+    print("Balík zatím nebyl předán kurýrovi")
